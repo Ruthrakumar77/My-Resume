@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl font-sans text-gray-800">
         <h1 className="text-3xl font-bold text-center">RUTHRAKUMAR D</h1>
-        <h2 className="font-bold ml-110 mb-2">( Web Developer )</h2>
+        <h2 className="font-bold text-center mb-2">( Web Developer )</h2>
 
         <p className="text-center text-sm">
           📞 9080745689 | 📧 druthrakumard@gmail.com |{" "}
@@ -17,7 +17,7 @@ function App() {
             <strong className='text-black'>LinkedIn: </strong>ruthrakumar-d-</a>
         </p>
 
-        <section className="mt-6">
+        <section className="mt-4">
           <h2 className="text-xl font-semibold border-b">Career Objective</h2>
           <p className=''>
             A passionate and detail-oriented Computer Science graduate with a strong foundation in web technologies, seeking
@@ -26,7 +26,7 @@ function App() {
           </p>
         </section>
 
-        <section className="mt-6">
+        <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Education</h2>
           <ul className="space-y-2">
             <li>
@@ -44,7 +44,7 @@ function App() {
           </ul>
         </section>
 
-        <section className="mt-6">
+        <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Technical Skills</h2>
           <ul className="list-disc list-inside">
             <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</li>
@@ -55,7 +55,7 @@ function App() {
           </ul>
         </section>
 
-        <section className="mt-6">
+        <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Projects</h2>
           <p className='mb-3'><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code</p>
           <div className="mb-2">
@@ -91,7 +91,7 @@ function App() {
           </div>
         </section>
 
-        <section className="mt-6">
+        <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Course</h2>
           <p><strong>MERN Full-Stack Development</strong> (Jul 2024 – May 2025)<br />
             J-Spiders, Marathahalli, Bengaluru – 560037  <br />
@@ -107,7 +107,7 @@ function App() {
             <strong>Technologies Learned:</strong> HTML, CSS, JavaScript</p>
         </section>
 
-        <section className="mt-6">
+        <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Soft Skills</h2>
           <ul className="list-disc list-inside">
             <li>Problem-Solving</li>
