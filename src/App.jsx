@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl font-sans text-gray-800">
         <h1 className="text-3xl font-bold text-center">RUTHRAKUMAR D</h1>
-        <h2 className="font-bold text-center mb-2">( Web Developer )</h2>
+        <h2 className="font-bold text-center mb-2"> Full-Stack Web Developer (MERN) </h2>
 
         <p className="text-center text-sm">
           📞 9080745689 | 📧 druthrakumard@gmail.com |{" "}
