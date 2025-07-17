@@ -31,28 +31,26 @@ function App() {
           <ul className="space-y-2">
             <li>
               <strong>B.Sc. in Computer Science</strong><br />
-              Arakkonam Arts & Science College, Thiruvalluvar University (2020) – 51%
+              Arakkonam Arts & Science College, Thiruvalluvar University (2020) {/*  – 51% */}
             </li>
-            <li>
+            {/* <li>
               <strong>12th Grade (HSC)</strong><br />
               Govt. Boys Higher Secondary School, Podaturpet (2016) – 58%
             </li>
             <li>
               <strong>10th Grade (SSLC)</strong><br />
               Govt. High School, Kesavarajakuppam (2014) – 78%
-            </li>
+            </li> */}
           </ul>
         </section>
 
         <section className="mt-4">
-          <h2 className="text-xl font-semibold border-b pb-1 mb-2">Technical Skills</h2>
-          <ul className="list-disc list-inside">
-            <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</li>
-            <li><strong>Programming Languages:</strong> C, C++, Java</li>
-            <li><strong>Databases:</strong> MySQL, MongoDB</li>
-            <li><strong>Tools:</strong> Git, VS Code</li>
-            <li><strong>Areas of Interest:</strong> Web Development, Responsive Design</li>
-          </ul>
+          <h2 className="text-xl font-semibold border-b pb-1 mb-2">Course</h2>
+          <p><strong>MERN Full-Stack Development</strong> (Jul 2024 – Jul 2025)<br />
+            J-Spiders, Marathahalli, Bengaluru – 560037  <br />
+            <p className='font-semibold'>Front-end - (HTML,CSS,JavaScript,React JS) <br />
+              Back-end  - (Node JS,Express JS,Mongo DB)</p>
+          </p>
         </section>
 
         <section className="mt-4">
@@ -92,12 +90,14 @@ function App() {
         </section>
 
         <section className="mt-4">
-          <h2 className="text-xl font-semibold border-b pb-1 mb-2">Course</h2>
-          <p><strong>MERN Full-Stack Development</strong> (Jul 2024 – May 2025)<br />
-            J-Spiders, Marathahalli, Bengaluru – 560037  <br />
-            <p className='font-semibold'>Front-end - (HTML,CSS,JavaScript,React JS) <br />
-              Back-end  - (Node JS,Express JS,Mongo DB)</p>
-          </p>
+          <h2 className="text-xl font-semibold border-b pb-1 mb-2">Technical Skills</h2>
+          <ul className="list-disc list-inside">
+            <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Programming Languages:</strong> C, C++, Java</li>
+            <li><strong>Databases:</strong> MySQL, MongoDB</li>
+            <li><strong>Tools:</strong> Git, VS Code</li>
+            <li><strong>Areas of Interest:</strong> Web Development, Responsive Design</li>
+          </ul>
         </section>
 
         <section className="mt-4">
