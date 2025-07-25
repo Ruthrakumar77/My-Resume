@@ -56,13 +56,7 @@ function App() {
         <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Projects</h2>
           <p className='mb-3'><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code</p>
-          <div className="mb-2">
-            <h2><strong>To Do App</strong></h2>
-            <p> Developed a task management application using React.js for the frontend. Implemented features such as task creation, editing, deletion,
-              and filtering by status. Utilized React hooks for state management and localStorage for data persistence.
-              <p className="font-semibold">Website Link:<a href="https://react-to-do-app-five-rho.vercel.app/" className="text-blue-600 hover:underline">View Project</a></p>
-            </p>
-          </div>
+
           <div className="mb-2">
             <h2><strong>Online Book Store App</strong></h2>
             <p>Developed a mini e-commerce web application that allows users to browse, search, and purchase books online. Implemented user authentication, shopping cart functionality, and a secure checkout process.
@@ -85,6 +79,13 @@ function App() {
             <h2><strong>School Project UI</strong></h2>
             <p>Developed a responsive UI for school management using modern web technologies.
               <p className="font-semibold">Website Link:<a href="https://school-project-ui.vercel.app" className="text-blue-600 hover:underline">View Project</a></p>
+            </p>
+          </div>
+          <div className="mb-2">
+            <h2><strong>To Do App</strong></h2>
+            <p> Developed a task management application using React.js for the frontend. Implemented features such as task creation, editing, deletion,
+              and filtering by status. Utilized React hooks for state management and localStorage for data persistence.
+              <p className="font-semibold">Website Link:<a href="https://react-to-do-app-five-rho.vercel.app/" className="text-blue-600 hover:underline">View Project</a></p>
             </p>
           </div>
         </section>
