@@ -1,10 +1,19 @@
 import './App.css'
+import NewResume from './NewResume'
 
 function App() {
 
   return (
     <>
-      <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl font-sans text-gray-800">
+      <NewResume />
+    </>
+  )
+}
+
+export default App
+
+
+{/* <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl font-sans text-gray-800">
         <h1 className="text-3xl font-bold text-center">RUTHRAKUMAR D</h1>
         <h2 className="font-bold text-center mb-2"> Full-Stack Web Developer (MERN) </h2>
 
@@ -31,26 +40,28 @@ function App() {
           <ul className="space-y-2">
             <li>
               <strong>B.Sc. in Computer Science</strong><br />
-              Arakkonam Arts & Science College, Thiruvalluvar University (2020) {/*  – 51% */}
+              Arakkonam Arts & Science College, Thiruvalluvar University (2020)   – 51% *
             </li>
-            {/* <li>
+             <li>
               <strong>12th Grade (HSC)</strong><br />
               Govt. Boys Higher Secondary School, Podaturpet (2016) – 58%
             </li>
             <li>
               <strong>10th Grade (SSLC)</strong><br />
               Govt. High School, Kesavarajakuppam (2014) – 78%
-            </li> */}
+            </li> 
           </ul>
         </section>
 
         <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Course</h2>
-          <p><strong>MERN Full-Stack Development</strong> (Jul 2024 – Jul 2025)<br />
-            J-Spiders, Marathahalli, Bengaluru – 560037  <br />
+          <div className='mb-2'>
+            <p><strong>MERN Full-Stack Development</strong> (Jul 2024 – Jul 2025)<br />
+              J-Spiders, Marathahalli, Bengaluru – 560037  </p>
             <p className='font-semibold'>Front-end - (HTML,CSS,JavaScript,React JS) <br />
               Back-end  - (Node JS,Express JS,Mongo DB)</p>
-          </p>
+          </div>
+
         </section>
 
         <section className="mt-4">
@@ -58,7 +69,7 @@ function App() {
           <p className='mb-3'><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code</p>
 
           <div className="mb-2">
-            <h2><strong>Online Book Store App</strong></h2>
+            <h2><strong>Online Book Store</strong></h2>
             <p>Developed a mini e-commerce web application that allows users to browse, search, and purchase books online. Implemented user authentication, shopping cart functionality, and a secure checkout process.
               <p className="font-semibold">Website Link:<a href="https://online-book-store-app-in-react.vercel.app/" className="text-blue-600 hover:underline">View Project</a></p>
             </p>
@@ -82,7 +93,7 @@ function App() {
             </p>
           </div>
           <div className="mb-2">
-            <h2><strong>To Do App</strong></h2>
+            <h2><strong>To Do List</strong></h2>
             <p> Developed a task management application using React.js for the frontend. Implemented features such as task creation, editing, deletion,
               and filtering by status. Utilized React hooks for state management and localStorage for data persistence.
               <p className="font-semibold">Website Link:<a href="https://react-to-do-app-five-rho.vercel.app/" className="text-blue-600 hover:underline">View Project</a></p>
@@ -93,7 +104,7 @@ function App() {
         <section className="mt-4">
           <h2 className="text-xl font-semibold border-b pb-1 mb-2">Technical Skills</h2>
           <ul className="list-disc list-inside">
-            <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Web Technologies:</strong> HTML,CSS,JavaScript,React,NodeJs,ExpressJS,MongoDB.</li>
             <li><strong>Programming Languages:</strong> C, C++, Java</li>
             <li><strong>Databases:</strong> MySQL, MongoDB</li>
             <li><strong>Tools:</strong> Git, VS Code</li>
@@ -117,9 +128,4 @@ function App() {
             <li>Adaptability</li>
           </ul>
         </section>
-      </div>
-    </>
-  )
-}
-
-export default App
+      </div> */}
