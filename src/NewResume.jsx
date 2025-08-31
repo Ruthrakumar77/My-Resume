@@ -49,7 +49,7 @@ function NewResume() {
 
                 <section className="mt-4">
                     <h2 className="text-xl font-semibold border-b pb-1 mb-2">Projects</h2>
-                    <p className="mb-3"><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code</p>
+                    <p className="mb-3"><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code, GitHub</p>
 
                     <div className="mb-2">
                         <h2><strong>Notes Pro</strong></h2>
