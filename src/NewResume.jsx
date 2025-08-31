@@ -1,4 +1,3 @@
-import './App.css'
 
 function NewResume() {
     return (
@@ -53,6 +52,15 @@ function NewResume() {
                     <p className="mb-3"><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code</p>
 
                     <div className="mb-2">
+                        <h2><strong>Notes Pro</strong></h2>
+                        <div>
+                            <p>A fullstack keep notes app which completes every features a user needs in the app</p>
+                            <p className="font-semibold">
+                                Website Link: <a href="https://notes-pro-ten.vercel.app/" className="text-blue-600 hover:underline">View Project</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="mb-2">
                         <h2><strong>Online Book Store</strong></h2>
                         <div>
                             <p>Developed a mini e-commerce web application that allows users to browse, search, and purchase books online. Implemented user authentication, shopping cart functionality, and a secure checkout process.</p>
@@ -92,15 +100,7 @@ function NewResume() {
                         </div>
                     </div>
 
-                    <div className="mb-2">
-                        <h2><strong>To Do List</strong></h2>
-                        <div>
-                            <p>Developed a task management application using React.js for the frontend. Implemented features such as task creation, editing, deletion, and filtering by status. Utilized React hooks for state management and localStorage for data persistence.</p>
-                            <p className="font-semibold">
-                                Website Link: <a href="https://react-to-do-app-five-rho.vercel.app/" className="text-blue-600 hover:underline">View Project</a>
-                            </p>
-                        </div>
-                    </div>
+                    
                 </section>
 
                 <section className="mt-4">
