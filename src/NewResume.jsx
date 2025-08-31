@@ -56,7 +56,7 @@ function NewResume() {
                         <div>
                             <p>A fullstack keep notes app which completes every features a user needs in the app</p>
                             <p className="font-semibold">
-                                Website Link: <a href="https://notes-pro-ten.vercel.app/" className="text-blue-600 hover:underline">View Project</a>
+                                Website Link: <a href="https://notes-pro-ten.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
                             </p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ function NewResume() {
                         <div>
                             <p>Developed a mini e-commerce web application that allows users to browse, search, and purchase books online. Implemented user authentication, shopping cart functionality, and a secure checkout process.</p>
                             <p className="font-semibold">
-                                Website Link: <a href="https://online-book-store-app-in-react.vercel.app/" className="text-blue-600 hover:underline">View Project</a>
+                                Website Link: <a href="https://online-book-store-app-in-react.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
                             </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ function NewResume() {
                         <div>
                             <p>Created a React.js restaurant management system using Tailwind CSS for UI and Context API for global state management.</p>
                             <p className="font-semibold">
-                                Website Link: <a href="https://restaurant-management-umber.vercel.app/" className="text-blue-600 hover:underline">View Project</a>
+                                Website Link: <a href="https://restaurant-management-umber.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
                             </p>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ function NewResume() {
                         <div>
                             <p>Developed a web-based application to help teachers manage student records and academic performance. The system supports student registration, grade entry, and dynamic performance tracking.</p>
                             <p className="font-semibold">
-                                Website Link: <a href="https://student-grade-system-tawny.vercel.app/" className="text-blue-600 hover:underline">View Project</a>
+                                Website Link: <a href="https://student-grade-system-tawny.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
                             </p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ function NewResume() {
                         <div>
                             <p>Developed a responsive UI for school management using modern web technologies.</p>
                             <p className="font-semibold">
-                                Website Link: <a href="https://school-project-ui.vercel.app" className="text-blue-600 hover:underline">View Project</a>
+                                Website Link: <a href="https://school-project-ui.vercel.app" className="text-blue-600 hover:underline">Visit my Project</a>
                             </p>
                         </div>
                     </div>
