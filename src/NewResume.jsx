@@ -16,18 +16,18 @@ function NewResume() {
                     </a>
                 </p>
 
-                <section className="mt-4">
-                    <h2 className="text-xl font-semibold border-b">Career Objective</h2>
-                    <p>
+                <section className="mt-3">
+                    <h2 className="text-x font-semibold border-b">CAREER OBJECTIVE</h2>
+                    <p className="ml-4">
                         A passionate and detail-oriented Computer Science graduate with a strong foundation in web technologies,
                         seeking an opportunity to apply my skills in front-end and back-end development. Eager to contribute
                         innovative solutions and grow within a dynamic tech environment.
                     </p>
                 </section>
 
-                <section className="mt-4">
-                    <h2 className="text-xl font-semibold border-b pb-1 mb-2">Education</h2>
-                    <ul className="space-y-2">
+                <section className="mt-3">
+                    <h2 className="text-x font-semibold border-b pb-1 mb-2">EDUCATION</h2>
+                    <ul className="space-y-2 ml-4">
                         <li>
                             <strong>B.Sc. in Computer Science</strong><br />
                             Arakkonam Arts & Science College, Thiruvalluvar University (2020)
@@ -35,62 +35,66 @@ function NewResume() {
                     </ul>
                 </section>
 
-                <section className="mt-4">
-                    <h2 className="text-xl font-semibold border-b pb-1 mb-2">Course</h2>
-                    <div>
-                        <p><strong>MERN Full-Stack Development</strong> (Jul 2024 – Jul 2025)</p>
-                        <p>J-Spiders, Marathahalli, Bengaluru – 560037</p>
-                        <p className="font-semibold">
-                            Front-end - (HTML, CSS, JavaScript, React JS) <br />
-                            Back-end - (Node JS, Express JS, Mongo DB)
-                        </p>
-                    </div>
+                <section className="mt-3">
+                    <h2 className="text-x font-semibold border-b pb-1 mb-2">TECHNICAL SKILLS</h2>
+                    <ul className="list-disc list-inside ml-4">
+                        <strong>Web Technologies:</strong>
+                        <div className="ml-4 flex">
+                            <div>
+                                  <li><strong>Frontend : </strong> HTML, CSS, JavaScript, React.js </li>
+                                  <li><strong>Backend : </strong> Node.js, Express.js,</li>
+                                  {/* <li><strong>Areas of Interest : </strong> Web Development, Responsive Design</li> */}
+                            </div>
+                            <div className="ml-8">
+                                <li><strong>Database : </strong>MongoDB</li>
+                                <li><strong>Tools : </strong> Git, VS Code, GitHub</li>
+                            </div>
+                        </div>
+                    </ul>
                 </section>
 
-                <section className="mt-4">
-                    <h2 className="text-xl font-semibold border-b pb-1 mb-2">Projects</h2>
-                    <p className="mb-3"><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code, GitHub</p>
 
-                    <div className="mb-2">
-                        <h2><strong>Notes Pro</strong></h2>
+                <section className="mt-3">
+                    <h2 className="text-x font-semibold border-b pb-1 mb-2">PROJECTS</h2>
+                    {/* <p className="mb-3"><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React, Git, VS Code, GitHub</p> */}
+
+                    {/* <div className="mb-2">
+                        <h2><strong>Notes Pro :-<a href="https://notes-pro-ten.vercel.app/" className="text-blue-600 hover:underline">[Link]</a></strong></h2>
+                        <div><p>A fullstack keep notes app which completes every features a user needs in the app</p></div>
+                    </div> */}
+
+                    <div className="mb-2 ml-4">
+                        <h2><strong>Online Book Store :-<a href="https://online-book-store-app-in-react.vercel.app/" className="text-blue-600 hover:underline"> [Link]</a></strong></h2>
                         <div>
-                            <p>A fullstack keep notes app which completes every features a user needs in the app</p>
-                            <p className="font-semibold">
-                                Website Link: <a href="https://notes-pro-ten.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div className="mb-2">
-                        <h2><strong>Online Book Store</strong></h2>
-                        <div>
-                            <p>Developed a mini e-commerce web application that allows users to browse, search, and purchase books online. Implemented user authentication, shopping cart functionality, and a secure checkout process.</p>
-                            <p className="font-semibold">
-                                Website Link: <a href="https://online-book-store-app-in-react.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
-                            </p>
+                            <p className="ml-9">
+                                <li>Developed a mini e-commerce web application that allows users to browse, search, and purchase books online. </li>
+                                <li>Implemented user authentication, shopping cart functionality, and a secure checkout process.</li>
+                                </p>
                         </div>
                     </div>
 
-                    <div className="mb-2">
-                        <h3><strong>Restaurant Management System</strong></h3>
+                    <div className="mb-2 ml-4">
+                        <h2><strong>Restaurant Management System :-<a href="https://restaurant-management-umber.vercel.app/" className="text-blue-600 hover:underline"> [Link]</a></strong></h2>
                         <div>
-                            <p>Created a React.js restaurant management system using Tailwind CSS for UI and Context API for global state management.</p>
-                            <p className="font-semibold">
-                                Website Link: <a href="https://restaurant-management-umber.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="mb-2">
-                        <h2><strong>Student Grade System</strong></h2>
-                        <div>
-                            <p>Developed a web-based application to help teachers manage student records and academic performance. The system supports student registration, grade entry, and dynamic performance tracking.</p>
-                            <p className="font-semibold">
-                                Website Link: <a href="https://student-grade-system-tawny.vercel.app/" className="text-blue-600 hover:underline">Visit my Project</a>
+                            <p className="ml-9">
+                                <li>I built a Restaurant Management System using React.js with Tailwind CSS for a responsive UI and Context API for global state management.</li>
+                                <li>It allows managing menu items, customer orders, and order status, making restaurant operations easier.</li>          
                             </p>
                         </div>
                     </div>
 
-                    <div className="mb-2">
+                    <div className="mb-2 ml-4">
+                        <h2><strong>Student Grade System :-<a href="https://student-grade-system-tawny.vercel.app/" className="text-blue-600 hover:underline"> [Link]</a></strong></h2>
+                        <div>
+                            <p className="ml-9">
+                                <li>Developed a web-based application to help teachers manage student records and academic performance.</li>
+                                <li>The system supports student registration, grade entry, and dynamic performance tracking.</li>
+                            </p>
+                           
+                        </div>
+                    </div>
+
+                    {/* <div className="mb-2">
                         <h2><strong>School Project UI</strong></h2>
                         <div>
                             <p>Developed a responsive UI for school management using modern web technologies.</p>
@@ -98,37 +102,36 @@ function NewResume() {
                                 Website Link: <a href="https://school-project-ui.vercel.app" className="text-blue-600 hover:underline">Visit my Project</a>
                             </p>
                         </div>
-                    </div>
-
+                    </div> */}
                     
                 </section>
 
-                <section className="mt-4">
-                    <h2 className="text-xl font-semibold border-b pb-1 mb-2">Technical Skills</h2>
-                    <ul className="list-disc list-inside">
-                        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React, NodeJs, ExpressJS, MongoDB</li>
-                        <li><strong>Databases:</strong> MySQL, MongoDB</li>
-                        <li><strong>Tools:</strong> Git, VS Code</li>
-                        <li><strong>Areas of Interest:</strong> Web Development, Responsive Design</li>
-                    </ul>
+                <section className="mt-3">
+                    <h2 className="text-x font-semibold border-b pb-1 mb-2">COURSE</h2>
+                    <div>
+                        <p className="ml-8"><strong>MERN Full-Stack Development : </strong> J-Spiders, Marathahalli, Bengaluru – 560037</p>
+                        {/* <p>J-Spiders, Marathahalli, Bengaluru – 560037</p> */}
+                        {/* <p className="font-semibold">
+                            Front-end - (HTML, CSS, JavaScript, React JS) <br />
+                            Back-end - (Node JS, Express JS, Mongo DB)
+                        </p> */}
+                    </div>
                 </section>
 
-                <section className="mt-4">
+
+                {/* <section className="mt-4">
                     <h2 className="text-xl font-semibold border-b pb-1 mb-2">Internship</h2>
                     <div>
                         <p><strong>Web Developer Intern – Techsnapie Solutions</strong></p>
                         <p>Worked on real-world projects and gained hands-on experience in front-end development.</p>
                         <p><strong>Technologies Learned:</strong> HTML, CSS, JavaScript</p>
                     </div>
-                </section>
+                </section> */}
 
-                <section className="mt-4">
-                    <h2 className="text-xl font-semibold border-b pb-1 mb-2">Soft Skills</h2>
-                    <ul className="list-disc list-inside">
-                        <li>Problem-Solving</li>
-                        <li>Teamwork</li>
-                        <li>Communication</li>
-                        <li>Adaptability</li>
+                <section className="mt-3">
+                    <h2 className="text-x font-semibold border-b pb-1 mb-2">SOFT SKILLS</h2>
+                    <ul className="list-disc list-inside ml-4">
+                        <li>Problem-Solving, Teamwork, Communication, Adaptability</li>
                     </ul>
                 </section>
             </div>
